@@ -1,0 +1,458 @@
+# MFDS Coach: verification report
+
+Every claim was compared with a primary source document, read by an agent in a browser on 19 October 2026. 723 items were checked: 430 matched, 154 were corrected, 139 could not be confirmed.
+
+Two corrections made by an earlier review were reversed after reading the sources directly:
+- NICE NG12 says "Consider" (not "Refer") for the oral ulcer, neck lump and laryngeal recommendations.
+- Periodontitis grading uses 0.25 and 1.0 (Tonetti 2018, Table 4), and stages III and IV are separated by tooth loss and complexity (Table 3). The BSP flowchart may present a simplified version, so the guide says to check it.
+
+## Corrections
+
+- **node:emerg-drugs**: Dental emergency drug list: adrenaline 1 mg/mL IM, aspirin 300 mg dispersible, glucagon 1 mg, GTN spray 400 mcg, buccal midazolam, oral glucose, oxygen, salbutamol 100 mcg inhaler (+spacer). Drugs are correct but they come from the BNF/SDCEP lists, not an RCUK drug list: the RCUK dental standard and equipment list contain no drugs and refer to the BNF. Wording changed from "RCUK minimum drug list".
+- **node:emerg-drugs**: Anaphylaxis adrenaline doses by age bands. BNF and SDCEP bands: under 6 months 100-150 mcg; 6 months-5 years 150 mcg; 6-11 years 300 mcg; 12-17 years 500 mcg (300 mcg if small or prepubertal); adult 500 mcg. Guide said 6 to 12 / over 12 / under 6; patched to the BNF boundaries. RCUK 2021 PDF not read; RCUK FAQ confirms 500 mcg for teenagers and adults.
+- **node:emerg-drugs**: MI: oxygen if SpO2 below 94%. SDCEP gives 100% oxygen at 15 L/min; BNF dental section says high-flow oxygen if cyanosed or conscious level deteriorates. No SpO2 94% threshold in either. Patched.
+- **node:emerg-drugs**: Hypoglycaemia repeat interval and number of repeats. BNF: repeat after 15 minutes, up to 3 treatments in total, then long-acting carbohydrate once above 4 mmol/L. Guide said recheck at 10-15 min and "repeat up to 3 times". Patched.
+- **node:emerg-drugs**: Adrenal crisis: hydrocortisone 100 mg IM if available. Not in the BNF dental emergency guidance or the dental drug list. Society for Endocrinology guidance was not read. Removed from the table; hydrocortisone is not part of the dental list.
+- **node:emerg-collapse**: ABCDE steps; normal capillary refill. Content said "2 seconds or less" and AVPU; RCUK uses "<2 s" and ACVPU (new confusion). Patched. Other ABCDE rows (airway manoeuvres, exposure) agree in substance.
+- **node:emerg-collapse**: Paediatric compression depth "about 4 cm infant, 5 cm child". 2025 text gives at least one third of AP dimension and never more than 6 cm; the 4 cm/5 cm figures are not in the current guideline. Patched.
+- **node:emerg-collapse**: RCUK dental equipment list and weekly checks, annual training. Weekly checks and annual training confirmed. The RCUK list has pocket mask, suction, OPAs, adult and child self-inflating bags, oxygen with reservoir masks, AED, pads, razor, scissors. It does not list a spacer, syringes or needles; patched.
+- **node:pharm-abx**: Amoxicillin 500 mg TDS up to 5 days; 1 g TDS in severe infection. Regimen right, but SDCEP now makes amoxicillin the alternative, reserved for where compliance with penicillin V is hard. Patched notes.
+- **node:pharm-abx**: Clarithromycin 250 mg BD (500 mg if severe), penicillin allergy. Wrong. SDCEP regimen is 500 mg BD for 5 days and it is second line only (after full first-line course fails, with referral/specialist advice), not the penicillin-allergy choice; not to be given with warfarin or statins. Patched.
+- **node:pharm-abx**: Review at 2 to 3 days. Review ideally at 3 days; stop if systemic signs resolved. Patched.
+- **node:pharm-abx**: Penicillin allergy: true allergy rules out penicillins; metronidazole alternative. Doxycycline option and "clarithromycin first" removed; metronidazole is the SDCEP alternative.
+- **node:pharm-analg**: Aspirin analgesic 300 mg 4-6 hourly, max 4 g; avoid under 16. SDCEP: 600 mg (up to 900 mg in one dose) 4-hourly, max 4 g; not under 16; do not prescribe after extraction or minor surgery. Patched.
+- **node:pharm-analg**: Paracetamol and ibuprofen "together" give better relief than either or many opioid combinations. SDCEP advises alternating (ibuprofen, then paracetamol 2 h later) within normal daily doses when one alone fails. Opioid comparison not sourced; removed.
+- **node:pharm-analg**: Codeine contraindicated under 12, breastfeeding mothers; ultra-rapid metabolisers. Confirmed under 12 and breastfeeding. "MHRA, 2013" date and "fatal respiratory depression" wording not in the BNF text; BNF says risk of respiratory side effects; ultra-rapid metabolisers of any age are contraindicated. Patched.
+- **node:pharm-analg**: NSAIDs in pregnancy: avoid unless essential, not from 20 weeks without specialist advice. BNF: avoid in first and second trimesters unless essential; MHRA advises additional antenatal monitoring from week 20; avoid in third trimester. Patched.
+- **node:pharm-int**: Fluconazole with warfarin, statins etc. SDCEP: do not prescribe azoles to patients taking statins, warfarin or theophylline. Patched ("check BNF" replaced).
+- **node:pharm-int**: Metronidazole with warfarin. SDCEP: do not prescribe; BNF: monitor INR and adjust dose. Patched.
+- **node:pharm-int**: Clarithromycin/erythromycin with simvastatin "contraindicated"; atorvastatin at higher doses; stop statin for course. Wording changed from "contraindicated" to avoid/do not prescribe; stop-statin advice removed.
+- **node:pain-la**: Lidocaine 4.4 mg/kg, absolute max 300 mg. 4.4 mg/kg is not in the BNF (BNF gives dental prescribers no mg/kg and says consult expert dental sources) nor in the general UK lidocaine SmPCs read: those give 4.5 mg/kg (or 300 mg) plain and 7 mg/kg (or 500 mg) with a vasoconstrictor. 4.4 mg/kg is a dental-textbook figure. Guide should phrase: "commonly taught 4.4 mg/kg (max 300 mg); UK SmPC up to 7 mg/kg with adrenaline (max 500 mg); BNF refers to expert dental sources; in the exam use the figure in the stem." Dental-cartridge SmPCs (Lignospan, Xylocaine Dental) could not be opened.
+- **node:pain-la**: Prilocaine 3% with felypressin 6 mg/kg, max 400 mg; methaemoglobinaemia; avoid in pregnancy. 6 mg/kg not found. General prilocaine SmPC: 400 mg adult, up to 5 mg/kg children. Felypressin oxytocic point not sourced. Patched with hedged wording.
+- **node:s-emerg**: Summary adrenaline age bands (over 12 / 6 to 12 / 6 months to 6 years). Patched to 12 and over / 6 to 11 / 6 months to 5 years, including the remember line.
+- **node:s-pharm**: Summary: first choices amoxicillin or pen V; penicillin allergy clarithromycin/doxycycline + metronidazole; combine analgesics; clarithromycin-simvastatin contraindicated. Patched: pen V first, amoxicillin alternative; metronidazole for penicillin allergy; alternate analgesics; "avoid" not "contraindicated".
+- **node:s-pain**: Summary: percentage x 10; cartridge contents (44, 88, 66 mg); maximum list; IANB facial palsy; pregnancy; sedation points; flumazenil; GA in hospital. Cartridge arithmetic verified. Maximum list now flagged as commonly taught and source-dependent; felypressin-in-pregnancy line hedged. Sedation lines (IHS at least 30% oxygen, IHS and IV midazolam standard) unverified.
+- **qz:19**: Key E: amoxicillin 500 mg TDS 5 days for spreading cellulitis with fever after drainage; no other option correct. Key stays (the only option with a correct SDCEP regimen). Explanation patched: SDCEP names phenoxymethylpenicillin as first choice, amoxicillin the alternative, 3 to 5 days, review about 3 days; removed the unsupported "short low-dose and prolonged courses" sentence.
+- **qz:22**: Key C: metronidazole in penicillin-anaphylaxis patient on simvastatin; macrolides avoided. Key is correct. Explanation patched to cite metronidazole as the SDCEP alternative and the no-macrolide-with-statin rule.
+- **qz:27**: Key C: inhalation sedation is the standard technique for an anxious fit 9-year-old; midazolam techniques for children are specialist. Key kept (IHS is the defensible answer). The claim that midazolam techniques for children are "advanced techniques" could not be verified, so the explanation was softened to "usually reserved for specialist settings". Statement that IHS is the IACSD standard technique for children remains unverified.
+- **flash:0**: Adrenaline IM anaphylaxis doses by age. Bands patched to 12 and over (500, or 300 if small/prepubertal) / 6-11 (300) / 6 months-5 years (150); question header now says BNF rather than RCUK 2021.
+- **flash:1**: Glucagon: 1 mg if over 8 years or 25 kg and over; 500 mcg if under 8 or under 25 kg. BNF: child 8 years and below or under 25 kg 500 mcg; 9-17 years or 25 kg and over 1 mg; adult 1 mg. Boundary at exactly 8 years was wrong. Patched.
+- **flash:11**: Clarithromycin 500 mg BD 5 days as penicillin-allergy option; avoid with statins. Dose correct, but it is a second-line drug, not the penicillin-allergy choice (metronidazole is). Question and answer patched; warfarin added.
+- **ex:anaphylaxis-adrenaline**: Step 3 and pattern: dose bands (over 12 / 6 to 12 / under 6); IV adrenaline specialists only; repeat 5 min. Bands patched to 12 and over / 6 to 11 / 6 months to 5 years in step 3, wrong-answer note for 150 mcg and the pattern line.
+- **ex:la-max-dose-child**: Step 3: UK lidocaine maximum varies; BNF gives higher figure. BNF gives no dental mg/kg (refers to expert dental sources); SmPC 7 mg/kg with adrenaline. Reworded as in node:pain-la. Wrong-answer notes unchanged (arithmetic only).
+- **flow:emerg**: Anaphylaxis box: adrenaline 1:1000 IM adult 0.5 ml; child 6-12 300; under 6 150; repeat 5 min; oxygen; 999. Child band edited to 6 to 11 years with age 12 and over 500 micrograms.
+- **flow:emerg**: Suspected MI box: 999, aspirin 300 mg chewed, GTN, oxygen if hypoxic. SDCEP gives oxygen at 15 L/min; BNF dental section limits to cyanosis/falling consciousness. "If hypoxic" is compatible with the BNF wording and left unchanged.
+- **flow:abx**: First line phenoxymethylpenicillin or amoxicillin; penicillin allergy see BNF/SDCEP; shortest effective course then review. Patched: pen V first choice, amoxicillin where compliance is a concern, metronidazole in penicillin allergy, review at about 3 days.
+- **qz:0**: Indurated 5-week tongue ulcer in a smoker: suspected cancer pathway referral is the best answer. Key right. Explanation said "needs"; NG12 says "consider". Option text "appointment within 2 weeks" removed: NG12 (Oct 2023) defines the pathway as diagnosis or ruling out within 28 days.
+- **qz:3**: Speckled red-white floor-of-mouth patch: suspected cancer pathway referral. Key right (dentist-assessed erythroleukoplakia: consider suspected cancer pathway referral). Wording changed to "consider"; "within 2 weeks" removed from the option.
+- **qz:5**: Lower 8 with darkening of roots and interrupted canal lines on OPT: CBCT is the best listed next step. Key right among the options. FGDP actually says a second radiograph with different projection geometry OR localised CBCT, if likely to change surgical management; explanation adjusted.
+- **qz:12**: Partially erupted lower first molar with poor moisture control: glass ionomer sealant. Key supported. Explanation wrongly attributed this to DBOH (DBOH says resin sealants are strongly recommended, GI evidence inconclusive and says nothing about moisture control). Explanation re-attributed to SDCEP.
+- **flash:38**: Toothpaste under 7. 3 to 6 is "at least 1,000 ppm" pea-sized (not "more than"); 1,350 to 1,500 ppm if higher risk.
+- **flash:40**: Varnish frequency. Higher-risk adults: 2 times a year (children giving concern: 2 or more).
+- **flash:41**: Fluoride mouthwash. Concentration is 0.05% NaF, 230 ppm (not 225 ppm).
+- **flash:48**: NG12 dentist referral for oral cancer. Reworded to "consider" as in NG12.
+- **ex:tongue-ulcer-ng12**: Key and steps: unexplained indurated ulcer over 3 weeks: suspected cancer pathway referral. Restored NG12 "consider" wording; removed "appointment within 2 weeks" (NG12 defines the pathway by the 28-day diagnosis standard since Oct 2023). Wrong-option notes (biopsy, routine, via GP) are standard practice and unverified.
+- **node:exam-onc**: NG12 table (consider wording, laryngeal 45+). Laryngeal row and oral ulcer row said "refer"/imperative; restored "Consider". Waiting-time wording updated to the NG12 28-day definition.
+- **node:exam-onc**: Risk factors list. Tobacco, alcohol, HPV (oropharynx), UV (lip) confirmed. DBOH says dietary evidence is limited, so "low fruit and vegetable intake" replaced with "male sex" (2:1 ratio in DBOH).
+- **node:exam-onc**: UK differences: England FDS vs old two-week wait. Corrected wording.
+- **node:exam-safeg**: FGM mandatory reporting: known cases under 18, police on 101, within one month maximum. Added best-practice next working day and that suspected or at-risk cases are outside the duty.
+- **node:exam-safeg**: Working Together edition. 2026 edition published March 2026; guide cited 2023. Scotland/Wales guidance names not checked.
+- **node:rad-sel**: Lead aprons not needed including pregnancy. FGDP: no routine lead aprons; abdominal shielding only if foetus in primary beam; no need to delay but offer the option for non-urgent images.
+- **node:rad-sel**: Image quality grading A/N with 95% and 5% targets. FGDP intraoral grades are 1/2/3 (targets at least 70% grade 1, at most 20% grade 2, at most 10% grade 3); the 95%/5% figures are CBCT.
+- **node:prev-dboh**: Toothpaste and varnish table. Several cells corrected (3 to 6 years everyone: at least 1,000 ppm; varnish for all 3 to 18 twice yearly; 0 to 6 higher risk: 1,350 to 1,500 ppm and varnish; adults higher risk: varnish twice yearly, rinse and high-strength paste for active caries).
+- **node:prev-dboh**: Mouthrinse 0.05% NaF, from 8. 230 ppm, not 225 ppm.
+- **node:prev-dboh**: Varnish 22,600 ppm (2.26% NaF); colophony and ulcerative gingivitis cautions. Colophony caution clarified (sticking-plaster allergy, severe allergy or asthma needing admission).
+- **node:prev-dboh**: Fissure sealants. Plus SDCEP child caries for GI on partially erupted molars.
+- **node:prev-dboh**: Free sugars 5% from age 2; bottle and free-flow cup advice. Bottle feeding is "discouraged from 12 months".
+- **node:med-bleed**: DOAC rows. Added the "no earlier than 4 hours after haemostasis" condition for the twice-daily and evening once-daily doses.
+- **node:med-bleed**: LMWH row. Treatment-dose or unclear dose: consult the prescriber for any procedure likely to cause bleeding.
+- **node:med-bleed**: Practical measures; tranexamic acid mouthwash. SDCEP does not advise dentists to prescribe tranexamic acid mouthwash. "20 minutes" pressure figure not in SDCEP and removed.
+- **node:med-mronj**: Drug holidays not recommended. SDCEP: no evidence a holiday lowers risk and it is the prescriber decision; denosumab timing option exists. Reworded.
+- **node:med-other**: Infective endocarditis row (CG64). NICE text verified. SDCEP 2nd ed (March 2026) now recommends prophylaxis for high-risk patients; regimen amoxicillin 2 g (or 3 g), clarithromycin or azithromycin 500 mg. Row and check text updated.
+- **sum:s-exam**: Key points and nums. Consider wording and 28-day definition applied; Working Together 2026.
+- **sum:s-rad**: Key points and nums. Image-quality targets and lead apron statement corrected.
+- **sum:s-prev**: Key points and nums. Under-7 toothpaste and mouthrinse ppm corrected; unsupported "full-length ribbon" removed.
+- **sum:s-medcomp**: Key points and nums. IE nuance (SDCEP 2026) and drug-holiday wording added; other points verified.
+- **node:perio-bpe**: Sextant definitions and third-molar / single-tooth wording. 2019 text defines sextants as 17-14, 13-23, 24-27 etc; third molars only if 6s/7s missing; 2+ teeth needed. The 'add a lone tooth to the adjacent sextant' rule is not in the 2019 document. Patched.
+- **node:perio-bpe**: Code * (furcation) triggers a full-mouth 6PPC. BSP 2019: only a code 4 in any sextant triggers a full-mouth 6PPC; * is recorded with the number and 'treat according to BPE code', specialist referral may be indicated. Patched table row and trap.
+- **node:perio-bpe**: 'A code 3 or 4 in a young person is unusual; radiographs and referral'. Source says code 4 or * is unusual in young patients: full assessment with 6PPC throughout the dentition, consider referral; for code 3, 4 or * radiographs should normally be considered. Patched.
+- **node:perio-class**: Flowchart step 1: code 0/1/2 -> health vs gingivitis by BOP; codes 3, 4, * -> radiographs. Code 3 pathway = radiographs, initial therapy, review at 3 months with localised 6PPC, then continue on code 0/1/2 or code 4 pathway; code 4 (and/or obvious interdental recession) = radiographs plus full assessment with full-mouth 6PPC. '*' is not a separate branch. Patched.
+- **node:perio-class**: Stage III 'middle third or beyond, 4 or fewer teeth lost'; stage IV 'as III plus 5 or more teeth lost / complex rehabilitation'. BSP flowchart: stage III = mid third of root, stage IV = apical third; no tooth-loss criterion. Tooth loss and complexity belong to the World Workshop framework (Tonetti text confirms they are used there). Patched.
+- **node:perio-class**: Grade A under 0.25; B 0.5 to 1.0 (gap); C over 1.0. BSP flowchart gives A <0.5, B 0.5-1.0, C >1.0. The node was internally inconsistent (0.25 / 0.5). Patched to 0.5.
+- **node:perio-tx**: Hygienists/therapists: direct access; medicines via PGD/PSD; 'planned exemptions' under consultation. Full scope except whitening without referral. Medicines exemptions are now in force (supply and administer specified POMs without a prescription); otherwise a PSD/PGD is needed and PGDs are being phased out. GDC guidance updated 1 Nov 2025 (node cited the 2013 Scope of Practice). Patched.
+- **node:surg-m3m**: 'If any sign is present, CBCT can show true relationship'. FDS: CBCT not routine; may be considered in selected cases when conventional films show a close relationship and findings would alter management. Patched.
+- **node:surg-m3m**: Nerve injury figures (check field: up to a few per cent temporary, under 1% permanent). Check text replaced to reflect what the document says.
+- **node:surg-comp**: Dry socket onset 2 to 4 days. Hedged: about 3 to 4 days (older texts say 2 to 4). Patched in node and summary card.
+- **node:surg-inf**: Antibiotics also for immunocompromised patients. SDCEP: antibiotics when local measures ineffective/drainage not achieved, spreading infection or systemic involvement; any clinical concern in an immunocompromised patient = hospital transfer. Patched.
+- **node:surg-inf**: Review in 2 to 3 days. Ideally at 3 days; stop when systemic signs resolve. Patched.
+- **node:surg-inf**: Regimens table: phenoxymethylpenicillin 500 mg qds; amoxicillin 500 mg tds; metronidazole 400 mg tds, up to 5 days; penicillin allergy second line. Doses right (penicillin V 2 x 250 mg qds, amoxicillin 500 mg tds, metronidazole 400 mg tds; 5-day regimens, suggested 3-5 days; double in severe infection for adults). But penicillin V is first choice, amoxicillin only where adherence is hard, metronidazole is the penicillin-allergy option, so the 'penicillin allergy is second line' heading was wrong. Patched.
+- **node:surg-inf**: Clarithromycin 250-500 mg bd as penicillin-allergy option. Clarithromycin and clindamycin are second line only after failure of a full first-line course, with referral or specialist advice. Row replaced.
+- **node:surg-inf**: Red flags: airway, dysphagia, raised floor of mouth, trismus; same-day referral to OMFS or ED. SDCEP: significant trismus, floor-of-mouth swelling, difficulty breathing/swallowing, rapidly spreading cellulitis = immediate emergency hospital transfer; 999 if airway compromise (e.g. Ludwig's) or sepsis. Wording patched.
+- **node:surg-inf**: Sepsis: use NEWS2 screening. SDCEP: if sepsis suspected dial 999; UK Sepsis Trust has primary dental care screening tools. Patched.
+- **node:omed**: NG12 wording in the trap field ('refer' for ulcer and neck lump). All three oral cancer recommendations say 'Consider': SCP referral for ulcer >3 weeks or persistent neck lump (1.8.2); urgent referral for assessment by a dentist for lump/red or red-white patch (1.8.3); SCP referral by a dentist when assessed as consistent with cancer (1.8.4). Trap text restored to 'consider'.
+- **node:omed-ulcer**: Major aphthae heal 'weeks to months'. Patched to about 6 weeks, occasionally longer.
+- **node:omed-ulcer**: DIF sample: separate perilesional sample, fresh or Michel's, not formalin. BAD: histology from perilesional mucosa; for isolated oral disease DIF from an uninvolved area, ideally buccal mucosa; transport in saline up to about 24 h, Michel's for longer. Patched. The not-in-formalin rule is standard but was not stated in the pages I read.
+- **node:omed-white**: WHO definitions of leukoplakia and erythroplakia; list of OPMDs. Chronic hyperplastic candidosis removed from the OPMD list; oral lichenoid lesions and chronic GVHD added. Leukoplakia/erythroplakia wording could not be read (abstract only). Patched.
+- **node:omed-white**: 'Unexplained ulceration lasting over 3 weeks also warrants an urgent referral'. Reworded to 'consider a suspected cancer pathway referral'. Patched.
+- **node:omed-white**: Node description: 'Red or red-and-white patches need a suspected cancer referral'. Softened to match 'consider'. Patched.
+- **node:omed-pain**: GCA management: same-day medical assessment for high-dose steroids. Visual symptoms: same-day ophthalmology; otherwise urgent specialist discussion/fast-track pathway, specialist review within 3 working days; 40-60 mg prednisolone if strongly suspected, bloods before or just after, no delay. Patched.
+- **node:omed-saliv**: Check field: lymphoma risk figures vary. BSR 2025 gives 5-10% lifetime risk; check field updated.
+- **sums:s-perio**: Code 3 and code 4/* charting; under-18 rules; stage and grade; unstable definition; S3 steps; antibiotics. Code 4 or * wording (only 4 triggers full-mouth), stage III/IV tooth-loss wording and grade A cut-off (0.25) were wrong; patched. Under-18 rules, status definition, S3 steps, 3-12 month SPC, extent and gingivitis numbers verified in bsp-u18, bsp-flow, bsp-s3.
+- **sums:s-surg**: TA1; pericoronitis; Rood and Shehab; dry socket; coronectomy 3 mm; amoxicillin and metronidazole doses. Dry socket onset hedged to 3-4 days; '3 mm' removed. TA1, pericoronitis, signs, antibiotic doses (500 mg tds, 400 mg tds, up to 5 days), dry socket no antibiotics, drain source verified in nice-ta1, fds-m3m, sdcep-dp.
+- **sums:s-omed**: RAS sizes; haematinics; pemphigus/MMP; GCA same-day steroids; ulcer over 3 weeks 'suspected cancer referral'. GCA line and NG12 line patched ('consider'). RAS, haematinics, pemphigus split, TN seconds to 2 minutes verified; erythroplakia/OKC/Gorlin/stone statements unverified.
+- **flow:bpe**: Code 4 or *: full-mouth 6PPC and radiographs. Only code 4 triggers it; * is treated according to its number. Patched.
+- **ex:bpe-code4-star**: Step 3, step 4 and pattern say 'code 4 or * in any sextant' triggers full-mouth chart. Patched to code 4 only; * follows its number.
+- **ex:perio-stage-grade**: Step 3 and wrong-note text on stage IV = tooth loss/complexity; 'tooth loss can move a case up a stage'. BSP flowchart: stage IV = apical third. Patched step 3, step 4, wrong note 3 and pattern.
+- **ex:perio-stage-grade**: Grade cut-offs A under 0.25 / B 0.25 to 1.0 in step 3, wrong note 0 and pattern. BSP: A <0.5, B 0.5-1.0, C >1.0. Option 0 (grade B) is still wrong because 1.25 is over 1.0. Patched.
+- **flash:32**: Grade cut-offs 0.25 / 1.0. BSP flowchart: A <0.5, B 0.5-1.0, C >1.0. Patched.
+- **flash:33**: Stage definitions (garbled, tooth loss). Rewritten as I <15% (or <2 mm CAL), II coronal third, III middle third, IV apical third.
+- **qz:36**: Key B: generalised stage II grade B (40 y, 30% coronal third). Key unchanged. Explanation range '15-33%' (World Workshop wording, not in the BSP flowchart) and '0.25-1.0' patched to BSP coronal third and 0.5-1.0; 0.75 is grade B under either cut-off.
+- **qz:49**: Giant cell arteritis (key E); same-day assessment. Key right. Explanation refined: same-day ophthalmology if visual symptoms, otherwise urgent specialist/fast-track pathway. Patched.
+- **node:paed-tx**: Pulpotomy indication/method/medicament table row. SDCEP: pulpotomy is for vital teeth with irreversible symptoms (no abscess/sinus) or no clear dentine band; contraindicated near exfoliation, unrestorable, pre-cooperative or immunocompromised; ferric sulphate pellet about 2 minutes; if bleeding uncontrolled or canals necrotic consider pulpectomy or extraction; calcium silicate cement (e.g. MTA); PMC at same visit. Ferric sulphate is the haemostatic agent not the dressing. Patched.
+- **node:paed-tx**: Pulpectomy row: irreversible pulpitis/necrosis where tooth worth keeping; resorbable paste; never gutta-percha. SDCEP: infection (abscess/sinus/radiolucency) = extract if cooperative; pulpectomy only in exceptional circumstances (may need referral); conventional endodontics contraindicated as roots resorb. EAPD 2022 also says pulpectomy is not first line. Resorbable paste / no gutta-percha could not be verified in a primary source; hedged in patch.
+- **node:paed-tx**: Formocresol no longer used. SDCEP: should not be used due to safety concerns; ferric sulphate for haemostasis and calcium silicate cement. Node implied ferric sulphate as medicament. Patched. EAPD 2022 also recommends FS or MTA.
+- **node:paed-tx**: Pulp therapy avoided in IE-risk or immunocompromised children. SDCEP names immunocompromised (and pre-cooperative) as contraindications; infective endocarditis risk is not named on that page. Patched to attribute immunocompromised to SDCEP and keep IE as a cautious extra.
+- **node:paed-tx**: Diagnosis in children: spontaneous/night pain, swelling, sinus, mobility, furcation radiolucency. Irreversible pulpitis = spontaneous pain lasting hours, may wake child, no signs of infection; abscess = swelling/sinus/mobility/inter-radicular radiolucency. Node conflated necrosis with pulpitis. Patched.
+- **node:paed-tx**: Edition cited as SDCEP 2nd ed 2018. Third edition published 27 February 2025. Patched in node src, paed src, resto src and SUMS guides.
+- **node:paed-trauma**: Storage media order: HBSS first, then milk, saline, saliva (buccal sulcus if old enough); avoid water. IADT 2020 descending order: milk, HBSS, saliva (spat into a glass), saline; water is poor but better than drying. Buccal sulcus storage not mentioned. Patched.
+- **node:paed-trauma**: Dry time over 60 minutes: PDL non-viable, ankylosis/replacement resorption expected; delayed replantation still usually correct. IADT: PDL likely non-viable at >60 min dry; most PDL cells non-viable by 30 min; replant almost always correct. Wording hedged.
+- **node:paed-trauma**: Antibiotics, tetanus, chlorhexidine, soft diet; doxycycline avoid in young children. Amoxicillin or penicillin first choice; doxycycline appropriate but not recommended under 12; tetanus: refer to physician; chlorhexidine 0.12% twice daily 2 weeks; soft diet up to 2 weeks. Patched to be specific.
+- **node:paed-trauma**: Primary intrusion: extract if apex towards germ. IADT 2020: extraction no longer advised; allow spontaneous repositioning irrespective of direction (usually within 6 months, up to a year), rapid referral to child-oriented team. Patched.
+- **node:paed-trauma**: Primary lateral luxation: leave if minimal interference; severe may need extraction; splinting rarely needed. Spontaneous repositioning usually within 6 months; severe: extract only if aspiration risk, or gently reposition and splint 4 wk if unstable. Splinting for alveolar fractures 4 wk. Patched.
+- **node:ortho-inter**: Ectopic canine prevalence about 2%. RCS: impaction prevalence about 1.5%. Patched in node, check field and SUMS nums.
+- **node:ortho-inter**: Compensating upper 6 extraction to prevent over-eruption. Compensating extractions are not routinely recommended; routine balancing extractions not recommended. Patched.
+- **node:resto-caries**: Stepwise removal no longer favoured; non-selective removal no longer recommended. 2025/26 S3 guideline suggests SE or stepwise over NSE; either acceptable depending on depth and preference. Patched. ESE 2019 full text was paywalled (abstract only).
+- **node:resto-mat**: EU general ban from 2025 affects Northern Ireland. Secondary reports say a derogation to 2034 was secured for NI; not confirmed from a government source. Patched to hedge and point to DoH NI.
+- **node:resto-endo**: NaOCl concentrations 0.5 to 5%. ESE S3: NaOCl 1% to 5.25% followed by EDTA. Patched.
+- **node:prosth-rpd**: Denture stomatitis: Newton types, causes, denture hygiene, denture out for part of each day, miconazole gel; fluconazole for extensive/severe. BNF: dentures out at least 6 h/24 h, soak in disinfectant, brush palate, fit; stomatitis not always Candida; miconazole gel if needed; fluconazole when extensive or miconazole unsuitable. Antifungal bullet patched. Hypochlorite damaging cobalt-chromium not read (textbook).
+- **node:prosth-imp**: Two-implant mandibular overdenture as "minimum standard" (McGill 2002). Title says "first choice standard of care". Patched node and SUMS.
+- **flow:avulsion**: Permanent: replant at scene, hold by crown, rinse briefly; storage media. Buccal sulcus/cheek storage not in IADT 2020; media order corrected. Patched.
+- **flow:avulsion**: End box: antibiotics (doxycycline only age 12+, otherwise amoxicillin/penicillin V), tetanus, soft diet, chlorhexidine, follow-up. Amoxicillin or penicillin first choice; tetracyclines generally not under 12. Patched. Follow-up: 2 wk, 4 wk, 3 mo, 6 mo, 1 y then yearly for at least 5 years (closed apex).
+- **qz:54**: Key E replant at once, rinse then replant, bite on cloth, come straight in. Option text said rinse in cold water; IADT 2020 says rinse gently in milk, saline or saliva. Option E patched; key unchanged. Option A (water) still wrong, C (milk, come in hours) is delayed replantation.
+- **node:comm-hard**: MDAS scores 5 to 25; high score suggests dental phobia. Range 5 to 25 follows from five items scored 1 to 5 but is not stated in the abstracts read; patched to give the cut-off of 19
+- **node:comm-hard**: GDC Standard 5: written procedure, displayed, prompt handling, log, learn; complaints must not affect care. Standards say must have and follow an effective written procedure; display, analysis and records are "should"; the claim that complaints must not affect care is not in Principle 5. Patched
+- **node:comm-hard**: check field: GDC suggested 3 working day acknowledgement and 10 working day full response. GDC says respond within the procedure's time limits and update at least every 10 days in exceptional circumstances; there is no 10 working day response standard in Principle 5. Patched
+- **node:prof-gdc**: List of the 9 GDC principles. Principle 7 is "work within" (not "work to") your professional knowledge and skills. Patched
+- **node:prof-gdc**: Cycle starts from first registration date. Patched; dentists' CPD year is 1 January to 31 December
+- **node:prof-consent**: A competent child's refusal can be overridden by a person with PR or the court. NHS page covers only 16 and 17 year olds (overruled in exceptional circumstances). Under-16 position not found in a primary source, so patched to hedge
+- **node:prof-consent**: Northern Ireland Mental Capacity Act 2016 "partly in force". Patched to describe staged operation from 2019
+- **node:prof-conf**: check: DUAA 2025 changes to SAR searches and time limit. Patched to record what the current ICO guidance says
+- **node:prof-concerns**: Professional duty of candour source "joint statement by UK regulators (2014)". The GDC page does not cite a 2014 joint statement; patched to cite the GDC guidance
+- **node:prof-concerns**: Statutory trigger: notifiable safety incident (non-NHS definition differs). Patched to state the non-NHS-body definition
+- **node:mgmt-ipc**: EQR: manual cleaning acceptable only as validated process; WD preferred; validated autoclave; clean-to-dirty flow. WD not essential; ultrasonic or manual cleaning to a written protocol accepted (manual cleaning is hard to validate); separation by physical or temporal means; six-monthly audit; plan towards best practice. Patched
+- **node:mgmt-ipc**: Steam cycle 134 to 137°C, hold at least 3 minutes, about 2.25 bar. No pressure figure in the main text. Patched, and the summary card figure patched to match
+- **node:mgmt-ipc**: Weekly autoclave: air leakage (vacuum); safety checks of door seal. Door seal check is not a weekly steriliser test in the table (seal is cleaned daily). Patched
+- **node:mgmt-ipc**: Hand hygiene: WHO 5 moments; bare below elbows; jewellery; nails; ABHR vs soap and water incl norovirus and C. difficile. Moments, soap/water triggers and nails verified; jewellery rule corrected (remove all hand and wrist jewellery, single plain ring allowed). Patched
+- **node:mgmt-hs**: PEP not needed if source on treatment with undetectable viral load. Generally not indicated if on ART for at least 6 months with undetectable viral load (case by case); unknown-status sources generally not recommended. Patched
+- **node:mgmt-hs**: Hepatitis B: booster or accelerated course plus HBIG for non-responders exposed to positive source. HBIG for known non-responders with HBsAg-positive or unknown-status source. Patched
+- **node:mgmt-hs**: Anti-HBs: 100 or more responder; 10 to 99 low responder, booster; below 10 non-responder; measured 1 to 4 months after course. Test at 1 to 2 months; 10 to 100 gets one additional dose; below 10 repeat course then HBIG if exposed. Patched
+- **node:mgmt-hs**: check: single hepatitis B booster about 5 years after course. Current UK advice is no routine booster for responding immunocompetent healthcare workers. Patched
+- **node:mgmt-gov**: Urgent = 1.2 UDAs. Patched; 1.2 remains in the NHS Digital historic table
+- **node:mgmt-gov**: One charge per course at highest band; exemptions (under 18, pregnant, baby <12 months, benefits). Under-19s in full-time education also exempt. Patched
+- **sums:s-mgmt**: 134 to 137°C, 3 min. Patched
+- **sums:s-mgmt**: Bands 1/3/12 UDAs, 2b 5, 2c 7, urgent 1.2. Patched
+- **qz:76**: Explain factually without unjustified comment on previous dentist (B). Key right; explanation reworded because "unjustified criticism" wording is not in the 2013 Standards. Patched
+- **flash:46**: GDC CPD hours: dentists 100; therapists, hygienists, technicians and others 75; nurses 50; 10 hours per 2 years. Dental technicians need 50 (not 75); orthodontic therapists and clinical dental technicians need 75. Patched
+- **ex:needlestick-first-aid**: First aid and urgent same-day assessment; PEP timing. Wording tightened from "ideally within hours ... check current guidance" to "preferably within 24 hours, not beyond 72 hours". Patched
+- **osce:consent-m3m**: Procedure duration, time off work, common effects. BAOMS: a few minutes up to about 20 minutes or more; a few days off. Patched
+- **osce:consent-m3m**: Nerve injury risk figures; coronectomy alternative with later root removal chance. Replaced vague "commonly quoted" figures with BAOMS figures. Patched
+- **osce:bad-news-usc**: NG12 wording: consider (not "refer") for ulcer >3 weeks, lump/patch; timescale. Check text wrongly said "refers"; restored "consider" and updated the timescale definition (28 days). Patched
+- **osce:angry-complaint**: NHS 12-month guarantee for restorations. Covers fillings, root fillings, inlays, porcelain veneers and crowns provided by the contractor, with exceptions; patched check text
+- **osce:doac-history**: Higher risk: apixaban miss morning dose; next dose "no earlier than 4 hours after haemostasis". Apixaban/dabigatran: miss morning dose, take usual evening dose; the 4-hour rule is for delayed morning dose of rivaroxaban/edoxaban. Patched approach and phrase
+- **osce:avulsion-phone**: Rinse under cold running water about 10 seconds. IADT 2020: rinse gently in milk, saline or saliva; water is a poor medium. Patched approach and phrase
+- **osce:avulsion-phone**: Splint 2 weeks; tetanus check; antibiotics; root canal within about 2 weeks. RCT within 2 weeks applies to closed apex; open apex managed for revascularisation. Patched
+- **osce:vba-perio**: Vaping "much less harmful". Patched
+
+## Could not be confirmed in a primary source (check these yourself)
+
+- **node:emerg-drugs**: Oxygen target 88 to 92% in hypercapnic respiratory failure risk (COPD). Standard BTS figure; BTS guideline not read. Hedged in text ("BTS guidance; check").
+- **node:emerg-drugs**: No improvement after two IM doses = refractory anaphylaxis needing specialist IV adrenaline. BNF supports escalation after two doses. The term "refractory anaphylaxis" and IV infusion detail are in the RCUK 2021 PDF, which could not be read; RCUK page lists a refractory anaphylaxis algorithm. Left unchanged.
+- **node:pharm**: Legal prescription contents (signed, dated, patient details, drug, strength, dose, quantity); Dental Practitioners' Formulary. Formulary existence confirmed; the list of prescription contents was not checked against the Human Medicines Regulations/BNF prescription-writing text.
+- **node:pharm-abx**: Children dosed by BNFC; sugar-free liquids; stewardship statements; dental share of UK antibiotic prescribing. Stewardship principles agree with SDCEP; the national share claim is unsourced and left generic.
+- **node:pharm-analg**: Carbamazepine first line for trigeminal neuralgia; OTC paracetamol warning. Standard clinical teaching (NICE CKS/BNF); not read.
+- **node:pharm-int**: Amoxicillin/other antibiotics change INR. 
+- **node:pharm-int**: Other lists: dry mouth drugs, lichenoid reactions, taste disturbance, candidiasis with inhaled steroids, MRONJ drugs, Yellow Card. Standard teaching; no primary source read for these lists.
+- **node:pain**: Overview: LA maths expected; sedation/GA overview. Pointer sources confirmed to exist; no factual claim beyond that.
+- **node:pain-la**: Articaine 7 mg/kg (max 500 mg); not licensed under 4 years; thiophene ring. Hedged in text ("check SmPC"). 7 mg/kg and 500 mg are consistent with the EU Septanest referral summary seen only via search, not read in full.
+- **node:pain-la**: Mepivacaine 3% plain 4.4 mg/kg (max 300 mg). Hedged in text.
+- **node:pain-la**: Local complications: facial nerve palsy after IANB (parotid), eye protection; lingual nerve paraesthesia; trismus etc. Standard anatomy/clinical teaching; no primary guideline read.
+- **node:pain-sed**: Definition: conscious sedation with verbal contact maintained; wide margin of safety. Definition is the standard IACSD/A Conscious Decision wording; PDF not opened.
+- **node:pain-sed**: IHS: N2O 20-40%, at least 30% oxygen; 100% oxygen at end; contraindications; scavenging; B12. Not verified.
+- **node:pain-sed**: IV midazolam monitoring, escort and post-sedation restrictions (24 h). "Rest of day versus 24 hours" is a node check item; left hedged ("commonly 24 hours"). Capnography point is consistent with the FAQ.
+- **node:pain-sed**: IACSD essentials: second trained person; standard techniques = IHS, IV midazolam (+oral/transmucosal), advanced = combinations/propofol/children IV. Not verified. Note the standards were under review from 2023 and the 2020 version may have been superseded.
+- **node:pain-sed**: GA only in hospital with critical care since end of 2001. Not verified from a primary page.
+- **qz:25**: Key A: facial nerve palsy from anaesthetic deposited in parotid after IANB; protect the eye. Standard anatomy teaching; no other option is defensible, key kept.
+- **flash:15**: Articaine maximum 7 mg/kg. Card now says "figure commonly quoted (max 500 mg)" with an unverified-for-dental-cartridges check note.
+- **flash:18**: After IV sedation avoid driving etc for 24 hours with escort (IACSD). Reworded to "rest of the day (often taught as 24 hours)... follow IACSD and local protocol".
+- **sort:1:card3**: Localised periodontal abscess in a well patient: local measures only. General SDCEP principle (antibiotics only for spreading/systemic infection) supports the answer; the periodontal-abscess-specific drainage and debridement wording was not found on the pages read.
+- **qz:1**: Well-controlled type 2 diabetes with no functional limitation is ASA II. ASA website unreachable (redirects to a dead page). Matches the secondary reproduction of the ASA table; not marked verified.
+- **qz:2**: 7-year-old with ear and neck bruising and implausible story: refer to children social care same day via local procedure and safeguarding lead; do not confront. The best-answer logic agrees with GDC 8.5 and NICE NG76 (explain confidentiality, open questions, record). Specific bruise-site claims and "same day" not found in a source I could open (Child Protection and the Dental Team site was blocked).
+- **qz:6**: Crown-attached unilocular lucency round unerupted lower 8 = dentigerous cyst. Standard oral pathology teaching; no primary source opened (WHO classification not accessible).
+- **qz:7**: Multilocular soap-bubble expansile lesion with root resorption = ameloblastoma. Standard oral pathology teaching; no primary source opened.
+- **qz:31**: Previous mandibular radiotherapy, unrestorable molar: refer to specialist team. ORN management is outside SDCEP MRONJ guidance; no primary source opened (Restorative Dentistry UK / BAOMS not read).
+- **qz:33**: 8 weeks pregnant, non-urgent restorations: second trimester. Standard teaching; no primary source opened.
+- **sort:0:card4**: Treat-cause-and-review cards (denture flange ulcer, aphthae, sharp cusp, mucocele). Clinical judgement. Review in 2 to 3 weeks is consistent with the NG12 3-week ulcer criterion but NG12 does not state the review interval.
+- **sort:0:card5**: Treat-cause-and-review cards (denture flange ulcer, aphthae, sharp cusp, mucocele). Clinical judgement. Review in 2 to 3 weeks is consistent with the NG12 3-week ulcer criterion but NG12 does not state the review interval.
+- **sort:0:card6**: Treat-cause-and-review cards (denture flange ulcer, aphthae, sharp cusp, mucocele). Clinical judgement. Review in 2 to 3 weeks is consistent with the NG12 3-week ulcer criterion but NG12 does not state the review interval.
+- **sort:0:card7**: Treat-cause-and-review cards (denture flange ulcer, aphthae, sharp cusp, mucocele). Clinical judgement. Review in 2 to 3 weeks is consistent with the NG12 3-week ulcer criterion but NG12 does not state the review interval.
+- **node:exam-hx**: ASA table I to VI definitions and examples. Content matches the secondary reproduction; ASA original unreachable.
+- **node:exam-hx**: Conscious sedation in primary care usually ASA I and II. IACSD/SDCEP sedation guidance not opened.
+- **node:exam-hx**: SOCRATES, examination order, records principles. General practice teaching; FGDP Clinical Examination and Record-Keeping not opened.
+- **node:exam-onc**: Over 90% SCC; common sites; HPV 16. DBOH ch6 did not give these figures. Rising oropharyngeal cancer and HPV-linked slightly earlier age confirmed; sentence rewritten.
+- **node:exam-onc**: Suspicious features list; review a traumatic ulcer in 2 to 3 weeks; do not biopsy in primary care. Not in NG12 or DBOH; standard practice.
+- **node:exam-safeg**: Child abuse signs list (bruising non-mobile baby, torn frenum, ear/neck bruises, palatal petechiae). Source (Child Protection and the Dental Team) blocked in the browser; NG76 does not list these.
+- **node:exam-safeg**: Steps to act; share information without consent when needed. Consistent with NG76 but not individually checked.
+- **node:rad-sel**: Controlled area typically 1.5 m. Distance is set in local rules by the RPA; not in sources opened.
+- **node:rad-sel**: Incident notified to CQC (England), HIS, HIW, RQIA. IR(ME)R names CQC (England), Scottish Ministers, Welsh Ministers as enforcing authorities (HIS/HIW operate this in practice); Northern Ireland has separate regulations. Left unchanged.
+- **node:rad-interp**: Lesion appearance table, caries depth and referral notes. Standard radiology teaching; WHO classification/UK texts not opened.
+- **node:prev-dboh**: Fluoride toxicity 5 mg/kg; water fluoridation about 1 mg/L. Not found in DBOH chapters 9 or 10; left with an explicit check pointer.
+- **node:prev-life**: NRT, varenicline, e-cigarettes; oral effects of tobacco; areca nut. DBOH confirms e-cigarettes can help quitting and NRT; varenicline prescriber details and areca/submucous fibrosis not individually checked.
+- **node:prev-life**: AUDIT-C screening. Tool confirmed; threshold of 5 not confirmed.
+- **node:prev-life**: Inequalities table (proportionate universalism, Ottawa Charter, upstream/downstream, programmes). General public health content; Marmot/Ottawa sources not opened.
+- **node:med-bleed**: Inherited bleeding disorders (VWD, haemophilia, IANB avoidance, desmopressin). Not covered by SDCEP; UKHCDO guidance not opened.
+- **node:med-mronj**: ORN: definition over 3 months, 50 to 60 Gy, pre-radiotherapy extractions, decoronation. No primary source opened (outside SDCEP). Existing check pointer kept.
+- **node:med-other**: Pregnancy second trimester, left tilt, local anaesthetic and drug choices; IHD/BP advice; epilepsy; renal; liver; immunosuppression; allergy. Standard teaching; no primary source opened.
+- **node:perio-bpe**: FGDP(UK) radiograph selection criteria cross-reference; risk-factor list. Cross-reference to another node; not a claim from the BSP BPE text.
+- **node:perio-class**: Other categories in the classification; chronic/aggressive terms removed; 'periodontitis patient for life'. Abstract only; the lifelong-patient statement and list of other categories could not be read.
+- **node:perio-tx**: Hygienists/therapists can take radiographs if trained; no periodontal surgery. Not stated on the GDC direct-access page I read; the Scope of Practice document was not opened.
+- **node:surg-m3m**: Roots reduced to about 3 mm below the alveolar crest. No depth figure in the FDS document. Figure removed from node and summary card.
+- **node:surg-comp**: Dry socket risk factors: smoking, lower teeth, traumatic extraction, previous dry socket, female sex, COCP; pre-op chlorhexidine. Smoking, female sex and COCP are not in the FDS text I read; left unchanged.
+- **node:surg-comp**: Oroantral communication management (small: clot and suture; large: buccal advancement flap; antibiotics, decongestant; sinus precautions). No primary UK guideline found for closure technique; check field already hedges antibiotics/decongestants.
+- **node:surg-comp**: Tuberosity fracture, haemorrhage, nerve injury, displaced root management, TMJ dislocation reduction. Textbook content; not verifiable from the listed sources. Splint time already flagged as variable in the check field.
+- **node:surg-inf**: Ludwig's angina and cavernous sinus thrombosis descriptions; fascial space anatomy (mylohyoid line). Anatomy and named-condition descriptions are textbook and not in the listed sources.
+- **node:omed-ulcer**: PFAPA in children; refer if atypical or systemic features. PFAPA not mentioned in the CKS pages read.
+- **node:omed-ulcer**: Primary herpes: child 6 months to 5 years, self-limiting 10-14 days, HSV-1, recurrence herpes labialis. Epidemiology and natural history not in the SDCEP page.
+- **node:omed-ulcer**: MMP: subepithelial split, BP180/laminin 332, linear IgG/C3, older women, desquamative gingivitis, eye scarring, ophthalmology. Pemphigoid details not in a UK primary guideline I could open (BSOM page not found; EADV guideline not open).
+- **node:omed-ulcer**: Oral lichen planus: bilateral Wickham striae, forms, histology, lichenoid reactions to amalgam/drugs, OPMD status. Clinical description not in a primary source I could open.
+- **node:omed-white**: Risk table for malignant transformation (appearance, dysplasia, site, size over 200 mm2, female, non-smoker, candida) and rates. Not readable in the abstract; the node's check field already hedges size and rates.
+- **node:omed-white**: Benign white lesions; exposures; specialist management; never biopsy a suspected cancer yourself. Standard teaching; not in NG12 wording.
+- **node:omed-cyst**: Cysts and tumours table; Gorlin syndrome; other lesions; OKC reclassified as cyst. Entire node is textbook oral pathology; no primary source in the list could be opened. Left unchanged, check field kept.
+- **node:omed-pain**: TMD subtypes (DC/TMD), red flags, 'avoid irreversible treatment'; burning mouth syndrome; differential diagnoses. Not in a source I could open.
+- **node:omed-pain**: GCA: raised ESR and CRP. ESR/CRP appear in the management text only as tests to take; thresholds not checked.
+- **node:omed-saliv**: Salivary tumour and stone epidemiology; mucocele, ranula, mumps, sialadenitis. Textbook; no primary source in the list could be opened.
+- **qz:41**: Large OAC: immediate closure with buccal advancement flap (key B). No primary source in the list covers OAC closure; key is standard practice and no other option is defensible. Left unchanged.
+- **qz:43**: Lingual nerve injury after lower third molar removal (key D). Standard anatomy; left unchanged.
+- **qz:44**: MMP (key E): older woman, desquamative gingivitis, blood-filled blisters, conjunctival scarring. MMP features not verified from a primary source; key unambiguous.
+- **qz:45**: Unilateral lichenoid reaction next to amalgam (key A). Clinical teaching; not verifiable from the sources I could open.
+- **qz:46**: Leukoplakia on floor of mouth (key B). Definition (white plaque of questionable risk after exclusion) not readable in the abstract.
+- **qz:50**: Mucocele on lower lip after trauma (key A). Textbook diagnosis; no primary source available.
+- **node:paed-dev**: Eruption ages table and sequence (A,B,D,C,E; permanent upper 6,1,2,4,3/5,7; lower 6,1,2,3,4,5,7). No readable primary source for per-tooth eruption ages (NHS England sheet table is an image). Node already flags variation. Left as is.
+- **node:paed-dev**: Hypodontia: commonest missing teeth, associations (ectodermal dysplasia, Down, cleft), prevalence 4 to 6%. Standard text; no primary source reached.
+- **node:paed-dev**: AI and DI comparison table (types, radiographic features, Brandywine, DSPP). Standard text; no primary source reached.
+- **node:paed-tx**: Bite slightly propped and equilibrates within weeks after Hall crown. Hall Technique User's Manual not read.
+- **node:ortho-iotn**: 4e open bite over 4 mm. Sources conflict; left at 4 mm (original IOTN) and check note rewritten to flag the discrepancy.
+- **node:ortho-inter**: Crossbite with displacement corrected early; URA with Z-spring and bite plane; quad helix/expansion; grind primary canines. Appliance details are textbook and not in a primary source read.
+- **node:ortho-inter**: Space maintenance; balancing and compensating extractions for primary teeth. Detail not verified.
+- **node:ortho-inter**: Habits table: digit sucking effects and management. Textbook content; no primary source reached.
+- **node:resto-caries**: Activity: active lesions matt/rough/plaque-covered; arrested shiny/smooth/hard; resin infiltration for non-cavitated approximal lesions. Not checked in a primary source.
+- **node:resto-caries**: ART with high-viscosity GIC; minimal intervention principles. Not checked.
+- **node:resto-mat**: GIC vs composite table; bonding systems; C-factor; calcium silicate cements; ZOE and eugenol inhibiting composite. Materials science textbook content; no primary source reached.
+- **node:resto-tsl**: Erosion/attrition/abrasion/abfraction table; palatal upper anterior from intrinsic acid; management; Dahl concept and contraindications. No primary guideline read (BSRD/consensus not accessed).
+- **node:resto-endo**: AAE diagnostic terms table. AAE consensus not accessed.
+- **node:resto-endo**: Chlorhexidine/NaOCl precipitate; side-vented needle 1 to 2 mm short; hypochlorite incident management steps. Not covered by ESE 2006 or S3 text read; widely taught but not primary-sourced here.
+- **node:resto-ind**: Ferrule 1.5 to 2 mm; posts do not strengthen; taper, reduction, post length; cuspal coverage; conformative vs reorganised; SDA (Käyser). Prosthodontic textbook norms; node already flags these. No primary source reached.
+- **node:prosth-rpd**: Kennedy classes I to IV; Applegate rules; RPD design sequence; freeway space 2 to 4 mm; OVD effects. Textbook classification; no online primary source. Definitions are standard and internally consistent.
+- **node:prosth-imp**: Peri-implantitis risk factors incl. excess cement; baseline records; probe gently. Cement not found in the excerpt read.
+- **node:prosth-imp**: Bridge types, resin-bonded cantilever performs at least as well as fixed-fixed, pontic designs; implant contraindications; adolescent implants. Textbook content; no primary source reached.
+- **sums:s-prosth**: Kennedy classes, freeway space, miconazole and warfarin, mucositis vs peri-implantitis, McGill, SDA about 20 teeth. Peri-implantitis row corrected (and not and/or) and McGill wording corrected; Kennedy, freeway space and SDA unverified.
+- **sort:2:card0**: Cupped dentine on cusps with amalgams proud = erosion. Textbook tooth-wear teaching; no primary source reached.
+- **sort:2:card1**: Smooth glazed palatal wear upper incisors = erosion (intrinsic). 
+- **sort:2:card2**: Labial smooth wear in lemon sucker = erosion (extrinsic). 
+- **sort:2:card3**: Matching flat shiny facets on canines = attrition. 
+- **sort:2:card4**: Flattened incisal edges edge-to-edge = attrition. 
+- **sort:2:card5**: Fractured cusps, flat occlusal wear in grinder = attrition. 
+- **sort:2:card6**: Sharp V-shaped cervical notches after vigorous brushing = abrasion. 
+- **sort:2:card7**: Notches in incisal edges from hair grips = abrasion. 
+- **qz:58**: Key D URA with Z-spring and posterior bite plane for anterior crossbite with displacement. Best answer is standard teaching; other options clearly worse. Appliance specifics not in a primary source read.
+- **qz:62**: Key C palatal erosion upper teeth = intrinsic acid, e.g. bulimia. Standard teaching; no primary source read.
+- **qz:63**: Key D Dahl approach for localised anterior wear. Standard teaching; no primary source read.
+- **qz:65**: Key A ferrule most important for resistance to fracture. Standard teaching; no primary source read.
+- **qz:66**: Key B Kennedy Class I. Definitional; bilateral free-end saddles.
+- **qz:67**: Key C OVD too high with insufficient freeway space. Standard teaching.
+- **qz:69**: Key E cantilever resin-bonded bridge with single retainer. Standard UK teaching; no primary source read.
+- **node:comm**: Calgary-Cambridge and SPIKES named as the expected models. SPIKES existence checked; no primary source found stating that examiners expect either model
+- **node:comm-pt**: Calgary-Cambridge: five stages (initiating, gathering information, physical examination, explanation and planning, closing) with structure and relationship threads. The textbook was not accessible; the content is widely taught and consistent with the abstracts, but not read in a primary source
+- **node:comm-pt**: Advice not to give a diagnosis you cannot yet make or false reassurance. Communication advice; SPIKES step 4 supports giving facts honestly but the specific wording is the guide's own
+- **node:comm-hard**: Angry patient routine (private room, listen, acknowledge, apologise for experience, clarify, offer remedy, give procedure in writing, document). Standards support listening, apology and giving the procedure; the room and exit advice is practice guidance not in a source read
+- **node:comm-hard**: Wales Putting Things Right, Scotland model complaints procedure and SPSO, NI HSC complaints and NIPSO. Not read in a primary source
+- **node:comm-team**: SBAR structure (Situation, Background, Assessment, Recommendation) for urgent handover. NHS England QSIR tools page moved to Aqua and could not be read; acronym is standard
+- **node:comm-team**: Referral letter contents (patient, referrer, urgency, question, history, medical history, findings, consent). The item list is practice guidance, not a primary-source checklist
+- **node:prof-gdc**: Outcomes range from no action or advice to conditions, suspension or erasure; test is current impairment. Sanctions list only seen in a search summary
+- **node:prof-gdc**: Old scheme 250 hours with 75 verifiable. Trap text only; the 2008 scheme details were not read in a primary source
+- **node:prof-consent**: Others with PR (adoptive parents, step-parent/civil partner, special guardians, local authority care order) and grandparents do not have PR automatically. Not read in the Acts
+- **node:prof-conf**: Referral letters rely on implied consent for direct care. Implied consent for direct care comes from NHS/ICO guidance not read
+- **node:prof-conf**: Health data is special category; Art 6 lawful basis and Art 9 condition; privacy notice; data kept secure and accurate. Standard UK GDPR content, not re-read in this pass
+- **node:prof-conf**: Other rights (rectification, erasure, restriction, objection, portability); old £10/£50 fee and 40 days. Not read; trap text refers to DPA 1998 rules
+- **node:prof-concerns**: Freedom to Speak Up guardian in larger organisations. Not in the GDC standards; NHS arrangement not read
+- **node:prof-concerns**: Professional duty: tell patient, apologise, offer remedy, explain effects; report errors and near misses. Detail of the guidance PDF not read
+- **node:prof-ebp**: RCT best for effect of treatment; randomisation balances confounders. Standard definition
+- **node:prof-ebp**: Bias types and confounder definition. Handbook now uses domain names; lead-time and recall bias not checked
+- **node:mgmt-ipc**: Surgical scrub/rub before surgery; gloves not a substitute for hand hygiene. Not found in the extract read
+- **node:mgmt-ipc**: Wales WHTM 01-05 and other national versions. Not read
+- **node:mgmt-hs**: Mercury spillage kit and procedure; examples of hazardous substances. Not found in sources read
+- **node:mgmt-gov**: Clinical governance pillars (7 listed). Node itself says the list varies; no primary source read
+- **node:mgmt-gov**: SEA is a structured team review. No primary source read for SEA method
+- **node:mgmt-gov**: CQC five key questions; dental practices not rated. CQC website returned 403 to the browser. Patched the rating sentence to a "check" instruction
+- **node:mgmt-gov**: Wales, Scotland and NI use different contracts and fee systems. Not read
+- **sums:s-comm**: MDAS 5 to 25. 
+- **sums:s-mgmt**: CQC five key questions. CQC site not reachable
+- **qz:77**: SBAR for urgent call to OMFS registrar (C). Key is safe by elimination (SPIKES, ICE, Calgary-Cambridge are other things); SBAR not read in a primary source
+- **ex:needlestick-first-aid**: Sharp Instruments in Healthcare Regulations 2013; one-handed technique/safety device. The one-handed re-sheathing advice not read in a source
+- **osce:anxious-sedation**: 24-hour restrictions (driving, alcohol, legal documents, caring alone for child) and pregnancy deferral. The 24-hour restriction list and pregnancy advice are in the IACSD report, not read
+- **osce:missing-lateral**: RBB cantilever from UL3; conventional bridge avoided; implant space and age; space 5 mm. No primary source read for restorative options or implant space/age; station already carries a check note
+- **osce:sbar-omfs**: SBAR call; features of airway-threatening odontogenic infection (temperature, trismus, floor of mouth, dysphagia). SBAR source not read; clinical red flags belong to cluster C/D sources
+- **osce:avulsion-phone**: Head injury screening. General first-aid good practice, not stated in the avulsion guideline
+- **osce:vba-perio**: Stage III grade C with smoking over 10 a day as grade modifier. Periodontal classification is checked in cluster C sources
+- **osce:safeguarding-child**: TEN-4-FACESp rule details. Original paper not read; check field patched to say so
+
+## Primary sources used
+
+- [ASA Physical Status Classification (asahq.org redirects to a dead page); table as reproduced in Frontline Gastroenterology 2018;10:24-34 (SECONDARY, matches ASA 2014/2020 table)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6319155/table/T1)
+- [Access to Health Records Act 1990 s 3; Road Traffic Act 1988 s 172; Health Protection (Notification) Regulations 2010](https://www.legislation.gov.uk/ukpga/1990/23/section/3)
+- [Adults with Incapacity (Scotland) Act 2000 s 47; Age of Legal Capacity (Scotland) Act 1991 s 2(4); Family Law (Scotland) Act 2006 s 23](https://www.legislation.gov.uk/asp/2000/4/section/47)
+- [BAOMS patient information: Removal of impacted wisdom teeth](https://www.baoms.org.uk/patients/procedures/23/removal_of_impacted_wisdom_teeth)
+- [BEWE: Basic Erosive Wear Examination (Bartlett, Ganss and Lussi, Clin Oral Investig 2008), via Europe PMC PMC2238785](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2238785/fullTextXML)
+- [BNF Fluconazole: interactions](https://bnf.nice.org.uk/interactions/fluconazole/)
+- [BNF Miconazole: interactions](https://bnf.nice.org.uk/interactions/miconazole/)
+- [BNF drug monographs and interaction pages (dihydrocodeine, codeine, ibuprofen, flumazenil, glyceryl trinitrate, lidocaine, prilocaine, mepivacaine, doxycycline, nicorandil, phenytoin, ramipril; interactions for clarithromycin, metronidazole, miconazole, fluconazole, adrenaline, glyceryl trinitrate)](https://bnf.nice.org.uk/drugs/)
+- [BNF hydrocortisone (adrenal crisis dosing)](https://bnf.nice.org.uk/drugs/hydrocortisone/)
+- [BNF treatment summary: Oropharyngeal fungal infections (denture stomatitis)](https://bnf.nice.org.uk/treatment-summaries/oropharyngeal-fungal-infections/)
+- [BNF: Anaesthesia (local) treatment summary](https://bnf.nice.org.uk/treatment-summaries/anaesthesia-local/)
+- [BNF: Medical emergencies in the community](https://bnf.nice.org.uk/treatment-summaries/medical-emergencies-in-the-community/)
+- [BNF: Prescribing in dental practice (Medical emergencies in dental practice)](https://bnf.nice.org.uk/medicines-guidance/prescribing-in-dental-practice/)
+- [BNF: Sedation, anaesthesia, and resuscitation in dental practice](https://bnf.nice.org.uk/treatment-summaries/sedation-anaesthesia-and-resuscitation-in-dental-practice/)
+- [BSP Guidelines for Periodontal Patient Referral](https://www.bsperio.org.uk/assets/downloads/BSP_Guidelines_for_Patient_Referral_2020.pdf)
+- [BSP UK Clinical Practice Guidelines for the Treatment of Periodontal Diseases (S3 flowchart, 2 pages) and BSP S3 web page](https://www.bsperio.org.uk/professionals/bsp-uk-clinical-practice-guidelines-for-the-treatment-of-periodontitis)
+- [BSP flowchart: Implementing the 2018 Classification of Periodontal Diseases to Reach a Diagnosis (2 pages: diagnostic pathway; staging, grading, status)](https://www.bsperio.org.uk/assets/downloads/BSP_Flowchart_Implementing_the_2018_Classification.pdf)
+- [BSP/BSPD: Simplified BPE for under 18s (executive summary) and updated guidelines for periodontal screening and management under 18](https://www.bsperio.org.uk/assets/downloads/Executive_Summary_Simplified_BPE_for_the_Under_18s__BSP_BSPD_updated_2021_FINAL_PDF_version_130721.pdf)
+- [BSP: Basic Periodontal Examination (BPE) guidelines](https://www.bsperio.org.uk/assets/downloads/BSP_BPE_Guidelines_2019.pdf)
+- [Baile WF et al. SPIKES, The Oncologist 2000;5:302-311](https://academic.oup.com/oncolo/article/5/4/302/6386019)
+- [British Association of Dermatologists' guidelines for the management of pemphigus vulgaris 2017 (Harman et al., Br J Dermatol)](https://onlinelibrary.wiley.com/doi/full/10.1111/bjd.15930)
+- [British Orthodontic Society: Advice for General Dental Practitioners, PCTs and LHBs (referrals), PDF text extracted](https://bos.org.uk/wp-content/uploads/2022/02/British-Orthodontic-Society-Referrals-November-2019.pdf)
+- [British Society for Rheumatology guideline on management of adult and juvenile onset Sjogren disease](https://pmc.ncbi.nlm.nih.gov/articles/PMC12013823/)
+- [Care and support statutory guidance, chapter 14 (types of abuse and neglect)](https://www.gov.uk/government/publications/care-act-statutory-guidance/care-and-support-statutory-guidance)
+- [Children Act 1989 ss 2 and 4 (parental responsibility)](https://www.legislation.gov.uk/ukpga/1989/41/section/4)
+- [Cochrane Handbook chapter 8 (risk of bias)](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-08)
+- [Compensation Act 2006 s 2](https://www.legislation.gov.uk/ukpga/2006/29/section/2)
+- [Data Protection Act 2018 s 7, Schedule 2 paras 16 to 17, Schedule 3 Part 2; UK GDPR Article 37; Freedom of Information Act 2000 Schedule 1 paras 43A and 44](https://www.legislation.gov.uk/ukpga/2018/12/schedule/3)
+- [Deep Caries Management: EFCD-ESE-ORCA S3-Level Clinical Practice Guideline (Schwendicke et al., Int Endod J 2026;59:1298-1315)](https://onlinelibrary.wiley.com/doi/full/10.1111/iej.70132)
+- [Delivering Better Oral Health: an evidence-based toolkit for prevention (gov.uk HTML chapters 2, 4, 6, 9 to 12)](https://www.gov.uk/government/publications/delivering-better-oral-health-an-evidence-based-toolkit-for-prevention)
+- [Dental Complaints Service home page](https://dcs.gdc-uk.org/)
+- [Department of Health NI: Phase down plan for amalgam fillings published (1 July 2019)](https://www.health-ni.gov.uk/news/phase-down-plan-amalgam-fillings-published-health)
+- [Dietrich et al. (BSP). Periodontal diagnosis in the context of the 2017 classification: implementation in clinical practice. Br Dent J 2019;226:16-22](https://www.nature.com/articles/sj.bdj.2019.3)
+- [EAPD best clinical practice guidance for MIH (Lygidakis et al., 2022), via Europe PMC PMC8926988](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8926988/fullTextXML)
+- [EAPD best clinical practice guidance for treating deep carious lesions in primary teeth (Duggal et al., 2022), read via Europe PMC full text PMC9637614](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9637614/fullTextXML)
+- [ESE Quality guidelines for endodontic treatment: consensus report (Int Endod J 2006)](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2591.2006.01180.x)
+- [ESE S3-level clinical practice guideline: Treatment of pulpal and apical disease (Duncan et al., Int Endod J 2023)](https://onlinelibrary.wiley.com/doi/full/10.1111/iej.13974)
+- [ESE position statement: Management of deep caries and the exposed pulp (Duncan et al., Int Endod J 2019;52:923-934), abstract page only (full text paywalled)](https://onlinelibrary.wiley.com/doi/abs/10.1111/iej.13080)
+- [Employment Rights Act 1996 ss 43B and 43J (PIDA 1998 provisions); Public Interest Disclosure (Prescribed Persons) Order 2014](https://www.legislation.gov.uk/uksi/2014/2418/schedule)
+- [FDS RCS England: Management of the Palatally Ectopic Maxillary Canine (revised with edits 25 Jan 2023), PDF text extracted](https://rcseng.ac.uk/-/media/Files/RCS/FDS/Guidelines/2Management-of-the-Palatally-Ectopic-Maxillary-Canine--revised-with-edits-25-Jan-2023.pdf)
+- [FDS RCS England: Parameters of care for patients undergoing mandibular third molar surgery](https://www.rcseng.ac.uk/-/media/Files/RCS/FDS/3rd-molar-guidelines--April-2021-v3.pdf)
+- [FGDP(UK) Selection Criteria for Dental Radiography, 3rd edition (PDF on College of General Dentistry site, text extracted locally)](https://cgdent.uk/selection-criteria-for-dental-radiography/)
+- [Family Law Reform Act 1969 s 8](https://www.legislation.gov.uk/ukpga/1969/46/section/8)
+- [GDC CPD scheme requirements](https://www.gdc-uk.org/education-cpd/cpd/cpd-scheme)
+- [GDC Direct access (what hygienists and therapists can do)](https://www.gdc-uk.org/standards-guidance/standards-and-guidance/direct-access)
+- [GDC Recommended CPD topics](https://www.gdc-uk.org/education-cpd/cpd/cpd-scheme/recommended-cpd-topics)
+- [GDC Recording and submitting CPD (statement deadlines)](https://www.gdc-uk.org/education-cpd/cpd/cpd-scheme/recording-and-submitting-cpd)
+- [GDC Standards for the Dental Team (Focus on Standards site, principles 1 to 9)](https://standards.gdc-uk.org/)
+- [GDC Standards for the Dental Team, Principle 8](https://standards.gdc-uk.org/pages/principle8/principle8)
+- [GDC: Being open and honest with patients when something goes wrong (professional duty of candour)](https://www.gdc-uk.org/standards-guidance/standards-and-guidance/gdc-guidance-for-dental-professionals/the-professional-duty-of-candour)
+- [GDC: Information for dental professionals facing a fitness to practise investigation](https://www.gdc-uk.org/raising-concerns/dental-professionals-facing-a-concern)
+- [Gillick v West Norfolk and Wisbech AHA [1985] UKHL 7](https://www.bailii.org/uk/cases/UKHL/1985/7.html)
+- [HQIP: What is clinical audit? and other frequently asked questions](https://www.hqip.org.uk/wp-content/uploads/2026/04/what-is-clinical-audit-and-other-frequently-asked-questions.pdf)
+- [HSE COSHH basics (what you need to do; control measures)](https://www.hse.gov.uk/coshh/basics/index.htm)
+- [HSE RIDDOR: Types of reportable incidents; When do I need to report](https://www.hse.gov.uk/riddor/types-of-reportable-incidents.htm)
+- [HSE: Blood-borne viruses, incident reporting; Needlestick or sharps injuries overview](https://www.hse.gov.uk/biosafety/blood-borne-viruses/incident-reporting.htm)
+- [Health (Tobacco, Nicotine etc. and Care) (Scotland) Act 2016 Part 2; Health and Social Care (Quality and Engagement) (Wales) Act 2020 Part 3](https://www.legislation.gov.uk/asp/2016/14/contents)
+- [Health Technical Memorandum 01-05: Decontamination in primary care dental practices](https://www.england.nhs.uk/publication/decontamination-in-primary-care-dental-practices-htm-01-05/)
+- [Health and Social Care Act 2008 (Regulated Activities) Regulations 2014 regs 20 and 22; HSCA 2008 s 10](https://www.legislation.gov.uk/uksi/2014/2936/regulation/20)
+- [Humphris GM et al. MDAS validation and UK norms (PubMed 7584581); UK population norms, ADHS 2009 (PubMed 23799962)](https://pubmed.ncbi.nlm.nih.gov/23799962/)
+- [IADT guidelines 2020: 1. Fractures and luxations (Bourguignon et al.)](https://onlinelibrary.wiley.com/doi/full/10.1111/edt.12578)
+- [IADT guidelines 2020: 2. Avulsion of permanent teeth (Fouad et al., Dent Traumatol 2020;36:331-342)](https://onlinelibrary.wiley.com/doi/full/10.1111/edt.12573)
+- [IADT guidelines 2020: 3. Injuries in the primary dentition (Day et al.)](https://onlinelibrary.wiley.com/doi/full/10.1111/edt.12576)
+- [IADT guidelines for traumatic dental injuries 2: Avulsion of permanent teeth (Fouad et al.)](https://onlinelibrary.wiley.com/doi/full/10.1111/edt.12573)
+- [ICDAS criteria as reproduced in Gugnani et al., ICDAS: a new concept (J Int Soc Prev Community Dent 2011), via Europe PMC PMC5030492. Secondary reproduction of the official ICDAS criteria, not the ICCMS manual itself.](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5030492/fullTextXML)
+- [ICO: A guide to subject access](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/subject-access-requests/a-guide-to-subject-access/)
+- [ICO: Data protection fee](https://ico.org.uk/for-organisations/data-protection-fee/)
+- [ICO: Personal data breaches, a guide](https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/personal-data-breaches-a-guide/)
+- [Ionising Radiation (Medical Exposure) Regulations 2017 reg 17 (training)](https://www.legislation.gov.uk/uksi/2017/1322/regulation/17)
+- [Ionising Radiation (Medical Exposure) Regulations 2017, regs 2, 6, 8, 11, 12](https://www.legislation.gov.uk/uksi/2017/1322/regulation/2/made)
+- [Ionising Radiations Regulations 2017, regs 2, 5, 6, 14, 15, 18](https://www.legislation.gov.uk/uksi/2017/1075/regulation/2/made)
+- [Local Authority Social Services and NHS Complaints (England) Regulations 2009, regs 12 to 15](https://www.legislation.gov.uk/uksi/2009/309/contents/made)
+- [MHRA Drug Safety Update: Topical miconazole, including oral gel: reminder of potential for serious interactions with warfarin](https://www.gov.uk/drug-safety-update/topical-miconazole-including-oral-gel-reminder-of-potential-for-serious-interactions-with-warfarin)
+- [Mandatory reporting of FGM: procedural information (Home Office / DfE)](https://www.gov.uk/government/publications/mandatory-reporting-of-female-genital-mutilation-procedural-information/mandatory-reporting-of-female-genital-mutilation-procedural-information-accessible-version)
+- [Mental Capacity Act (Northern Ireland) 2016 commencement information](https://www.legislation.gov.uk/nia/2016/18/section/1)
+- [Mental Capacity Act 2005 ss 1 to 5, 24, 37](https://www.legislation.gov.uk/ukpga/2005/9/contents)
+- [Montgomery v Lanarkshire Health Board [2015] UKSC 11 (judgment text on BAILII; case page on supremecourt.uk)](https://www.bailii.org/uk/cases/UKSC/2015/11.html)
+- [NCSCT Very Brief Advice on Smoking (VBA+) briefing and dental patients page](https://www.ncsct.co.uk/publications/dental_vba)
+- [NHS Business Services Authority: What is IOTN? (DHC and AC scales, NHS eligibility)](https://faq.nhsbsa.nhs.uk/knowledgebase/article/KA-01983/en-us)
+- [NHS England (South) Quick reference guide to orthodontic assessment and treatment need (Scott and Atack, 2015; IOTN DHC grades 3 to 5), text extracted from the PDF](https://www.england.nhs.uk/south/wp-content/uploads/sites/6/2014/09/ortho-referral-quick-reference-sheet.pdf)
+- [NHS England Digital: NHS Dental Statistics supporting information (treatment bands and UDA table)](https://digital.nhs.uk/data-and-information/publications/statistical/nhs-dental-statistics/nhs-dental-statistics-annex-4-guidance)
+- [NHS England South West: Support for dentists (NHS Practitioner Health; Dentists' Health Support Programme)](https://www.england.nhs.uk/south/info-professional/dental/support-for-dentists/)
+- [NHS England: Direct commissioning delegation letter (POD services to ICBs)](https://www.england.nhs.uk/long-read/direct-commissioning-delegation/)
+- [NHS England: Enabling people to make informed health decisions (health literacy, teach-back, chunk and check)](https://www.england.nhs.uk/personalisedcare/health-literacy/)
+- [NHS England: Learning from patient safety events](https://www.england.nhs.uk/patient-safety/patient-safety-insight/learning-from-patient-safety-events/)
+- [NHS England: NHS dentistry quality and payment reforms contractual guidance](https://www.england.nhs.uk/long-read/nhs-dentistry-quality-payment-reforms-contractual-guidance/)
+- [NHS HPV vaccine](https://www.nhs.uk/vaccinations/hpv-vaccine/)
+- [NHS: Alcohol units (restates the UK CMO 2016 low-risk guideline; the gov.uk CMO PDF could not be read in the browser)](https://www.nhs.uk/live-well/alcohol-advice/calculating-alcohol-units/)
+- [NHS: Consent to treatment, children and young people](https://www.nhs.uk/tests-and-treatments/consent-to-treatment/children/)
+- [NHS: How much NHS dental treatment costs; Who can get free NHS dental treatment](https://www.nhs.uk/nhs-services/dentists/how-much-nhs-dental-treatment-costs/)
+- [NHS: Vaping to quit smoking](https://www.nhs.uk/better-health/quit-smoking/ready-to-quit-smoking/vaping-to-quit-smoking/)
+- [NHS: Who can get free NHS dental treatment (England)](https://www.nhs.uk/nhs-services/dentists/who-can-get-free-nhs-dental-treatment/)
+- [NICE CG19 Dental checks: intervals between oral health reviews](https://www.nice.org.uk/guidance/cg19/chapter/Recommendations)
+- [NICE CG64 Prophylaxis against infective endocarditis](https://www.nice.org.uk/guidance/cg64/chapter/Recommendations)
+- [NICE CG89 Child maltreatment: when to suspect maltreatment in under 18s](https://www.nice.org.uk/guidance/cg89/chapter/Recommendations)
+- [NICE CKS Aphthous ulcer](https://cks.nice.org.uk/topics/aphthous-ulcer/)
+- [NICE CKS Giant cell arteritis](https://cks.nice.org.uk/topics/giant-cell-arteritis/)
+- [NICE CKS Trigeminal neuralgia](https://cks.nice.org.uk/topics/trigeminal-neuralgia/)
+- [NICE NG12 Suspected cancer: recognition and referral (recs 1.8.1 to 1.8.4, terms, update information)](https://www.nice.org.uk/guidance/ng12/chapter/Recommendations-organised-by-site-of-cancer)
+- [NICE NG28 Type 2 diabetes in adults: management (blood glucose management, 1.5.7)](https://www.nice.org.uk/guidance/ng28/chapter/Blood-glucose-management)
+- [NICE NG76 Child abuse and neglect](https://www.nice.org.uk/guidance/ng76/chapter/Recommendations)
+- [NICE TA1 Guidance on the extraction of wisdom teeth](https://www.nice.org.uk/guidance/ta1/chapter/1-Recommendations)
+- [National Health Service (General Dental Services Contracts) Regulations 2005, Schedule 3 para 11](https://www.legislation.gov.uk/uksi/2005/3361/schedule/3)
+- [National Infection Prevention and Control Manual for England, Chapter 1 (hand hygiene)](https://www.england.nhs.uk/national-infection-prevention-and-control-manual-nipcm-for-england/chapter-1-standard-infection-control-precautions-sicps/)
+- [Oxford CEBM: Study designs; OCEBM Levels of Evidence](https://www.cebm.ox.ac.uk/resources/ebm-tools/study-designs)
+- [PHE: Guidance on management of potential exposure to blood-borne viruses in emergency workers](https://assets.publishing.service.gov.uk/media/5d948c36e5274a2fb1019c1a/Guidance_on_management_of_potential_exposure_to_blood__2_.pdf)
+- [Peri-implant diseases and conditions: consensus report of workgroup 4, 2017 World Workshop (Berglundh et al., J Clin Periodontol 2018)](https://onlinelibrary.wiley.com/doi/full/10.1111/jcpe.12957)
+- [RCS England: Standards for Conscious Sedation in the Provision of Dental Care and Accreditation (IACSD) landing page and FAQ. The report PDF itself was not read](https://www.rcseng.ac.uk/dental-faculties/fds/publications-guidelines/standards-for-conscious-sedation-in-the-provision-of-dental-care-and-accreditation/)
+- [Recomputed by arithmetic (node script, definitions of sensitivity, specificity, PPV, NPV, ARR, NNT)](n/a)
+- [Regulation (EU) 2017/852 on mercury, Article 10 Dental amalgam (as retained in GB law), legislation.gov.uk](https://www.legislation.gov.uk/eur/2017/852/article/10)
+- [Reporting of Injuries, Diseases and Dangerous Occurrences Regulations (Northern Ireland) 1997](https://www.legislation.gov.uk/nisr/1997/455/contents)
+- [Resuscitation Council UK Guidelines 2025: Adult advanced life support](https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-advanced-life-support-guidelines)
+- [Resuscitation Council UK Guidelines 2025: Adult basic life support](https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines)
+- [Resuscitation Council UK Guidelines 2025: First aid (adult choking)](https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines)
+- [Resuscitation Council UK Guidelines 2025: Paediatric life support (basic and advanced)](https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/paediatric-basic-life-support-guidelines)
+- [Resuscitation Council UK: Emergency treatment of anaphylaxis, guidelines for healthcare providers](https://www.resus.org.uk/sites/default/files/2021-05/Emergency%20Treatment%20of%20Anaphylaxis%20May%202021_0.pdf)
+- [Resuscitation Council UK: FAQs, Anaphylaxis](https://www.resus.org.uk/professional-library/faqs/faqs-anaphylaxis)
+- [Resuscitation Council UK: Primary dental care equipment list](https://www.resus.org.uk/library/quality-standards-cpr/primary-dental-care-equipment-list)
+- [Resuscitation Council UK: Quality Standards, Primary dental care](https://www.resus.org.uk/library/quality-standards-cpr/primary-dental-care)
+- [Resuscitation Council UK: The ABCDE approach](https://www.resus.org.uk/library/abcde-approach)
+- [SDCEP Antibiotic Prophylaxis Against Infective Endocarditis implementation advice (2nd ed., March 2026)](https://www.antibioticprophylaxis.sdcep.org.uk/implementation-advice/executive-summary/)
+- [SDCEP Conscious Sedation in Dentistry](https://www.sdcep.org.uk/published-guidance/conscious-sedation/)
+- [SDCEP Drug Prescribing for Dentistry (SDCEP Dental Prescribing website): bacterial infections, dental abscess, acute periodontal conditions, facial pain, ulceration, viral infections, dry mouth](https://www.sdcepdentalprescribing.nhs.scot/guidance/bacterial-infections/)
+- [SDCEP Drug Prescribing for Dentistry: Bacterial infections, Dental abscess, Acute periodontal conditions](https://www.sdcepdentalprescribing.nhs.scot/guidance/bacterial-infections/)
+- [SDCEP Drug Prescribing for Dentistry: Drug interactions (supporting tools)](https://www.sdcepdentalprescribing.nhs.scot/guidance/supporting-tools/drug-interactions/)
+- [SDCEP Drug Prescribing for Dentistry: Fungal infections (denture stomatitis)](https://www.sdcepdentalprescribing.nhs.scot/guidance/fungal-infections/denture-stomatitis/)
+- [SDCEP Drug Prescribing for Dentistry: Medical emergencies](https://www.sdcepdentalprescribing.nhs.scot/guidance/medical-emergencies/)
+- [SDCEP Drug Prescribing for Dentistry: Odontogenic pain (analgesics)](https://www.sdcepdentalprescribing.nhs.scot/guidance/odontogenic-pain/analgesics/)
+- [SDCEP Management of Acute Dental Problems: Pulpitis](https://www.acutedentalproblems.sdcep.org.uk/guidance/management-of-oral-conditions/common-oral-conditions/pulpitis/)
+- [SDCEP Management of Dental Patients Taking Anticoagulants or Antiplatelet Drugs (2nd ed., March 2022), Dental Companion toolkit](https://companion.sdcep.org.uk/management-of-dental-patients-taking-anticoagulants-or-antiplatelet-drugs/)
+- [SDCEP Management of Dental Patients Taking Anticoagulants or Antiplatelet Drugs and quick reference guide](https://www.sdcep.org.uk/published-guidance/anticoagulants-and-antiplatelets/)
+- [SDCEP Oral Health Management of Patients at Risk of MRONJ, Dental Companion toolkit and SDCEP page](https://companion.sdcep.org.uk/prevention-of-medication-related-osteonecrosis-of-the-jaw/)
+- [SDCEP Practice Support Manual: Medical emergency drugs](https://www.psm.sdcep.org.uk/topics/medical-emergencies-and-life-support/medical-emergency-drugs/)
+- [SDCEP Prevention and Management of Dental Caries in Children (HTML guidance, incl. Hall Technique, pulpotomy, pain or infection, FPMs of poor prognosis)](https://www.childcaries.sdcep.org.uk/guidance/)
+- [SDCEP Prevention and Management of Dental Caries in Children (professionally-delivered interventions)](https://www.childcaries.sdcep.org.uk/guidance/caries-prevention/professionally-delivered-interventions/)
+- [SDCEP Prevention and Management of Dental Caries in Children: Behaviour management](https://www.childcaries.sdcep.org.uk/guidance/helping-the-family/behaviour-management/)
+- [Sanz et al. Treatment of stage I-III periodontitis: the EFP S3 level clinical practice guideline. J Clin Periodontol 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7891343/)
+- [The Caldicott Principles (National Data Guardian)](https://www.gov.uk/government/publications/the-caldicott-principles)
+- [The McGill consensus statement on overdentures (Feine et al., Gerodontology 2002;19:3-4), PubMed record (title and authors only)](https://pubmed.ncbi.nlm.nih.gov/12164236/)
+- [Tonetti, Greenwell, Kornman. Staging and grading of periodontitis: framework and proposal of a new classification and case definition. J Clin Periodontol 2018](https://onlinelibrary.wiley.com/doi/full/10.1111/jcpe.12945)
+- [UK guideline for the use of HIV post-exposure prophylaxis 2021 (BASHH-led, BHIVA co-badged)](https://bhiva.org/clinical-guideline/pep-guidelines/)
+- [UKHSA Green Book chapter 18: Hepatitis B](https://www.gov.uk/government/publications/hepatitis-b-the-green-book-chapter-18)
+- [UKHSA: BBVs in healthcare workers, health clearance and management](https://www.gov.uk/government/publications/bbvs-in-healthcare-workers-health-clearance-and-management)
+- [UNEP Global Mercury Partnership: Eliminating the use of dental amalgam (summarises Minamata COP-4 and COP-6 decisions)](https://www.unep.org/globalmercurypartnership/our-work/mercury-products/phasing-down-the-use-of-dental-amalgam)
+- [Warnakulasuriya et al. Oral potentially malignant disorders: consensus report, WHO Collaborating Centre for Oral Cancer. Oral Dis 2021](https://onlinelibrary.wiley.com/doi/full/10.1111/odi.13704)
+- [Working together to safeguard children (statutory guidance, 2026 edition) and summary of changes](https://www.gov.uk/government/publications/working-together-to-safeguard-children--2)
+- [emc SmPC: Prilocaine hydrochloride 1% Solution for Injection (product 870). General, not a dental cartridge product](https://www.medicines.org.uk/emc/product/870/smpc)
+- [emc SmPCs: Lidocaine 2% with adrenaline 1:200,000 (product 2396); 2% w/v Lidocaine Injection BP (15150); Lidocaine Hydrochloride Injection BP 2% (6281). General (non-dental-cartridge) lidocaine products](https://www.medicines.org.uk/emc/product/15150/smpc)
+- [nidirect: Registering and naming your baby (parental responsibility, births from 15 April 2002)](https://www.nidirect.gov.uk/articles/registering-and-naming-your-baby)
