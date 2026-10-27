@@ -22,7 +22,12 @@
 - The original 139 unconfirmed audit entries and their warnings remain. The old verification report is a dated historical record, not replaced by a blanket assurance.
 - No independent specialist examination-board or psychometric validation has been obtained.
 - The source remains a self-contained HTML app. No accounts, API keys, package installation, paid services or new backend were added.
-- No repository push, pull request, merge or production deployment was performed.
+- The initial downloadable edition did not deploy. Later on 27 October the user explicitly authorised replacing the existing live site; see DEPLOYMENT.md.
 
 ## Verification
-Content/schema tests and executable application-state tests pass. Real-browser desktop/mobile QA was blocked before launch, not passed. The included Playwright suite is available for a capable environment before publication.
+Content/schema tests and executable application-state tests pass. The original local-browser gate was blocked. After authorised deployment, actual HTTPS browser checks covered desktop and 400-CSS-pixel layouts, quiz flows and all 22 stations; see TEST-REPORT.md. The included Playwright suite is available for a capable environment before publication.
+
+## Same-URL publication follow-through
+- Preserved all original question progress keys and the existing local-storage namespace.
+- Retained the old commit in a rollback branch.
+- Corrected wrapping of long theory links found during narrow-screen live QA.

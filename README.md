@@ -34,7 +34,7 @@ node tests/interaction.test.cjs
 ```
 The first checks syntax, content schemas, preserved answer keys, lesson links and citation metadata. The second executes the app with a minimal DOM adapter and tests all 100 grading paths, all 22 station flows and the UK classification boundaries. **It is not a real-browser/layout test.**
 
-`tests/browser.test.cjs` provides a Playwright/Chromium suite for an environment where those are already installed. It covers desktop/mobile overflow, actual clicks and screenshots. In the preparation environment, Chromium launch was blocked by process-socket restrictions and escalation failed on a read-only environment mount; the cloud browser also rejected `file://`. Therefore desktop/mobile visual QA remains unverified. See [TEST-REPORT.md](TEST-REPORT.md).
+`tests/browser.test.cjs` provides a Playwright/Chromium suite for an environment where those are already installed. It covers desktop/mobile overflow, actual clicks and screenshots. In the preparation environment, Chromium launch was blocked by process-socket restrictions and escalation failed on a read-only environment mount; the cloud browser also rejected `file://`. After authorised publication, live Chromium checks were possible through the public HTTPS URL at desktop and 400-CSS-pixel widths. The local Playwright suite remains unrun; this is not an iPhone/Safari certification. See [TEST-REPORT.md](TEST-REPORT.md).
 
 ## Limits
 - This is a study aid. It is not official RCS England material and is not affiliated with any college.

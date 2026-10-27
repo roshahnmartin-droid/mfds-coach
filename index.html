@@ -121,8 +121,8 @@ table.t th { font-family: var(--display); }
 .scroll { overflow-x: auto; margin-bottom: 12px; }
 
 /* Theory chip */
-.chip { display: inline-flex; align-items: center; gap: 4px; font-size: .82rem; font-weight: 700; color: var(--gold); background: var(--gold-soft); border-radius: 999px; padding: 1px 10px; text-decoration: none; white-space: nowrap; }
-.chip::before { content: ""; width: 7px; height: 9px; border-radius: 50% 50% 40% 40%; background: currentColor; }
+.chip { display: inline-flex; align-items: center; gap: 4px; font-size: .82rem; font-weight: 700; color: var(--gold); background: var(--gold-soft); border-radius: 999px; padding: 1px 10px; text-decoration: none; white-space: normal; max-width: 100%; overflow-wrap: anywhere; }
+.chip::before { content: ""; flex-shrink: 0; width: 7px; height: 9px; border-radius: 50% 50% 40% 40%; background: currentColor; }
 .chip:hover { text-decoration: underline; }
 
 /* Examples */

@@ -15,8 +15,8 @@ This is a self-contained HTML/JavaScript website, not a native app or offline-in
 
 The existing GitHub Pages response advertised `Cache-Control: max-age=600`. Reload while online, or close and reopen an old tab, if the previous title persists. Do not clear website data just to refresh: that can erase local progress.
 
-## Verification status at publication
+## Publication and verification
 - Dependency-free syntax/schema/content and application-state suites pass.
-- Original saved quiz results have been seeded through the old live UI for a post-release compatibility check.
-- Deployment workflow, served-content byte match and live responsive/interaction checks are pending. The final result will be recorded after the hosted page changes.
+- Saved-result compatibility was verified in the same browser session: an old incorrect answer remained discoverable after its stem was rewritten.
+- Initial release commit: `358a63a866daf324a28492f6eae197d04d822d3b`; GitHub Pages run `40543804023` completed successfully. The served HTML exactly matched the local build. Live quiz, saved-progress and all-station checks passed; desktop and 400-CSS-pixel layouts were inspected. A small long-link wrap correction follows in this report commit and is rechecked after its deployment.
 - The earlier local Chromium/file-preview restrictions remain documented in TEST-REPORT.md; they are not being bypassed.

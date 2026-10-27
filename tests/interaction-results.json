@@ -2,7 +2,7 @@
   "passed": true,
   "testType": "VM application logic with minimal DOM adapter — not a browser test",
   "questionsGraded": 100,
-  "distinctAnswerOrders": 73,
+  "distinctAnswerOrders": 62,
   "stationsExercised": 22,
   "checks": [
     "correct/wrong feedback",
