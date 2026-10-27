@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "testType": "VM application logic with minimal DOM adapter — not a browser test",
+  "questionsGraded": 100,
+  "distinctAnswerOrders": 73,
+  "stationsExercised": 22,
+  "checks": [
+    "correct/wrong feedback",
+    "displayed answer letter",
+    "repeat-click guard",
+    "return-to-quiz guard",
+    "retry missed",
+    "new/wrong filters",
+    "question shuffle",
+    "restart",
+    "station navigation",
+    "hidden reveals",
+    "checklist persistence/reset",
+    "timer pause/reset/cleanup"
+  ]
+}

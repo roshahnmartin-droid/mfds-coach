@@ -1,0 +1,11 @@
+{
+  "questions": 100,
+  "revisedQuestions": 81,
+  "stations": 22,
+  "newStations": 10,
+  "references": 95,
+  "uniqueCitationURLs": 68,
+  "uniqueLongestCorrectOptions": 14,
+  "previousLongestCorrect": 47,
+  "legacyUnconfirmedClaims": 139
+}
